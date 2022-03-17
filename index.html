@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>cruid system</title>
+</head>
+<body>
+<!-- <nav class="navbars fixed-top">
+    <div class="container">
+        <a href="#" class="logo"><img src="logo.png" alt=""></a>
+        <ul class="nav-list">
+            <li class="active-link" data-filter="home">home</li>
+            <li data-filter="about">about</li>
+            <li data-filter="service">service</li>
+            <li data-filter="contact-us">contact us</li>
+            <li data-filter="more">more</li>
+        </ul>
+        <i class="bars fas fa-bars"></i>
+    </div>
+</nav>
+<header class="sections">
+    <div class="home"></div>
+    <div class="about"></div>
+    <div class="service"></div>
+    <div class="contact-us"></div>
+    <div class="more"></div>
+</header> -->
+<!-- <div id="content">
+    <div class="box1">A</div>
+    <div class="box2">B</div>
+  </div> -->
+  <!-- <div class="container">
+      <div class="row mb-3">
+          <div class="col-md-6 m-auto">
+              <input type="text" class="form-control mb-2" id="input"> 
+              <a href="#" class="btn btn-danger" id="btn">Add</a>
+              <div class="result" id="res"></div>
+          </div>
+      </div>
+    
+  </div> -->
+<!-- <div class="parent">
+    <button class="btn btn-danger">first</button>
+    <button class="btn btn-danger">second</button>
+    <button class="btn btn-danger">third</button>
+    <button class="btn btn-danger">forth</button>
+    <button class="btn btn-danger">fifth</button>
+    <button class="btn btn-danger">sex</button>
+  
+</div> -->
+
+
+
+<h2 class="text-center count mt-5"></h2>
+<div class="container mt-5">
+    <form class="form-group">
+        <label for="product-name">product name</label>
+        <input type="text" id="product-name" class="form-control my-2">
+        <label for="product-price">product price</label>
+        <input type="number" id="product-price" class="form-control my-2">
+        <label for="product-desc">product description</label>
+        <textarea id="product-desc" class="form-control w-100 my-2"></textarea>
+        <label for="product-desc">product category</label>
+        <select class="form-select my-2" id="select-category">
+            <option value="electonics">electonics</option>
+            <option value="vegitables">vegitables</option>
+            <option value="fruits">fruits</option>
+            <option value="juise">juise</option>
+        </select>
+        <button class="btn btn-primary my-2" >Add Product</button>
+    </form>
+    <div class="container my-3">
+        <label for="product-search">search by productName</label>
+        <input onkeyup ='searchproduct(container)' type="text" id="product-search" class="form-control my-2">
+    </div>
+    <div class="container my-3">
+        <label for="category-search">search by category</label>
+        <input onkeyup ='searchcategory(container)' type="text" id="category-search" class="form-control my-2">
+    </div>
+   <table class="table text-center mt-5" id="table">
+       <thead id="thead">
+        <tr>
+            <th>index</th>
+            <th>name</th>
+            <th>price</th>
+            <th>desc</th>
+            <th>category</th>
+            <th>update</th>
+            <th>delete</th>
+        </tr>
+       </thead>
+       <tbody id="tbody">
+       </tbody>
+
+   </table>
+</div>
+
+
+
+
+
+
+ 
+</body>
+
+
+<script src = "js/bootstrap.min.js"></script>
+<script src = "js/jquery-3.6.0.min.js"></script>
+<script src = "js/style.js"></script>
+</body>
+</html>
